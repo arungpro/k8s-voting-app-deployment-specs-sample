@@ -25,7 +25,7 @@ The vote interface is then available on port 30010 on each host of the cluster, 
 Architecture
 -----
 
-![Architecture diagram](architecture.png)
+![Architecture diagram](https://github.com/arungpro/example-voting-app/blob/master/architecture.png)
 
 * A front-end web app in [Python](/vote) or [ASP.NET Core](/vote/dotnet) which lets you vote between two options
 * A [Redis](https://hub.docker.com/_/redis/) or [NATS](https://hub.docker.com/_/nats/) queue which collects new votes
